@@ -14,6 +14,11 @@
       <link rel="stylesheet" href="assets/css/styles.css">
       <link rel="stylesheet" href="assets/css/01-navbar.css">
       <link rel="stylesheet" href="assets/css/02-home.css">
+      <link rel="stylesheet" href="assets/css/03-about.css">
+      <link rel="stylesheet" href="assets/css/04-popular.css">
+      <link rel="stylesheet" href="assets/css/05-explore.css">
+      <link rel="stylesheet" href="assets/css/06-join.css">
+      <link rel="stylesheet" href="assets/css/07-footer.css">
       <link rel="stylesheet" href="assets/css/responsive.css">
 
       <title>Responsive travel website</title>
@@ -25,7 +30,7 @@
             <div class="nav-logo">Tavel</div>
             <div class="nav-menu" id="nav-menu">
                <ul class="nav-list">
-                  <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                  <li class="nav-item"><a href="#home" class="nav-link active-link">Home</a></li>
                   <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
                   <li class="nav-item"><a href="#popular" class="nav-link">Popular</a></li>
                   <li class="nav-item"><a href="#explore" class="nav-link">Explore</a></li>
@@ -43,7 +48,7 @@
          <!--==================== HOME ====================-->
          <section class="home section" id="home">
             <img src="assets/img/home-bg.jpg" class="home-bg">
-            <div class="home-shadow"></div>
+            <div class="shadow"></div>
             <div class="home-container container grid">
                <div class="home-data">
                   <h3 class="home-subtitle">Welcome To Travel</h3>
@@ -55,22 +60,22 @@
                   <article class="home-card">
                      <img src="assets/img/home-trees.jpg" class="home-card-img">
                      <h3 class="home-card-title">Croatia</h3>
-                     <div class="home-card-shadow"></div>
+                     <div class="shadow"></div>
                   </article>
                   <article class="home-card">
                      <img src="assets/img/home-lake.jpg" class="home-card-img">
                      <h3 class="home-card-title">Iceland</h3>
-                     <div class="home-card-shadow"></div>
+                     <div class="shadow"></div>
                   </article>
                   <article class="home-card">
                      <img src="assets/img/home-mountain.jpg" class="home-card-img">
                      <h3 class="home-card-title">Italy</h3>
-                     <div class="home-card-shadow"></div>
+                     <div class="shadow"></div>
                   </article>
                   <article class="home-card">
                      <img src="assets/img/home-beach.jpg" class="home-card-img">
                      <h3 class="home-card-title">Spain</h3>
-                     <div class="home-card-shadow"></div>
+                     <div class="shadow"></div>
                   </article>
                </div>
             </div>
@@ -78,32 +83,149 @@
 
          <!--==================== ABOUT ====================-->
          <section class="about section" id="about">
-            
+            <div class="about-container container grid">
+               <div class="about-data">
+                  <h2 class="section-title">Learn More <br> About Travel</h2>
+                  <p class="about-description">All the trips around the world are a great pleasure and happiness for anymore, enjoy the sights when you travel the world. travel safely and without worries, get your trip and explore the paradises of the world.</p>
+                  <a href="#" class="button">Explore Travel <i class="ri-arrow-right-line"></i></a>
+               </div>
+               <div class="about-image">
+                  <img src="assets/img/about-beach.jpg" class="about-img">
+                  <div class="shadow"></div>
+               </div>
+            </div>
          </section>
 
          <!--==================== POPULAR ====================-->
          <section class="popular section" id="popular">
-            
+            <h2 class="section-title">Enjoy The Beauty <br> of The World</h2>
+            <div class="popular-container container grid">
+               <article class="popular-card">
+                  <div class="popular-image">
+                     <img src="assets/img/popular-mountain.jpg"class="popular-img">
+                     <div class="shadow"></div>
+                  </div>
+                  <h2 class="popular-title">Logan Mountain</h2>
+                  <div class="popular-location"><i class="ri-map-pin-line"></i></div>
+                  <span>Canadá</span>
+               </article>
+               <article class="popular-card">
+                  <div class="popular-image">
+                     <img src="assets/img/popular-forest.jpg"class="popular-img">
+                     <div class="shadow"></div>
+                  </div>
+                  <h2 class="popular-title">Spike Forest</h2>
+                  <div class="popular-location"><i class="ri-map-pin-line"></i></div>
+                  <span>Irland</span>
+               </article>
+               <article class="popular-card">
+                  <div class="popular-image">
+                     <img src="assets/img/popular-lake.jpg"class="popular-img">
+                     <div class="shadow"></div>
+                  </div>
+                  <h2 class="popular-title">Garda Lake</h2>
+                  <div class="popular-location"><i class="ri-map-pin-line"></i></div>
+                  <span>Italy</span>
+               </article>
+            </div>
          </section>
          
          <!--==================== EXPLORE ====================-->
          <section class="explore section" id="explore">
-            
+            <div class="explore container">
+               <div class="explore-image">
+                  <img src="assets/img/explore-beach.jpg" class="explore-img">
+                  <div class="explore-shadow"></div>
+               </div>
+               <div class="explore-content container grid">
+                  <div class="explore-data">
+                     <h2 class="section-title">Explore the <br> Best Paradises</h2>
+                     <p class="explore-description">Exploring paradises such as slands and valleys when traveling the world is one of the greatest experiences when you travel, it offers you harmony and peace and you can enjoy it with great confort.</p>
+                  </div>
+                  <div class="explore-user">
+                     <img src="assets/img/explore-perfil.png" class="explore-profile">
+                     <span class="explore-name">Paul James</span>
+                  </div>
+               </div>
+            </div>
          </section>
          
          <!--==================== JOIN ====================-->
          <section class="join section">
-            
+            <div class="join-container container grid">
+               <div class="join-data">
+                  <h2 class="section-title">Your Journey <br> Starts Here</h2>
+                  <p class="join-description">Get up to date with the latest travel and information from us.</p>
+                  <form action="" class="join-form">
+                     <input type="email" placeholder="Enter your email" id="" class="join-input">
+                     <button class="join-submit button">Subscribe Our Newsletter <i class="ri-arrow-right-line"></i></button>
+                  </form>
+               </div>
+               <div class="join-image">
+                  <img src="assets/img/join-island.jpg" class="join-img">
+                  <div class="shadow"></div>
+               </div>
+            </div>
          </section>
       </main>
 
       <!--==================== FOOTER ====================-->
       <footer class="footer">
-         
+         <div class="footer-container container grid">
+            <div class="footer-content grid">
+               <div>
+                  <a href="#" class="footer-logo">Travel</a>
+                  <p class="footer-description">Travel with us and explore <br> the world without limits.</p>
+               </div>
+               <div class="footer-data grid">
+                  <div>
+                     <h3 class="footer-title">About</h3>
+                     <ul class="footer-links">
+                        <li><a href="#" class="footer-link">About Us</a></li>
+                        <li><a href="#" class="footer-link">Features</a></li>
+                        <li><a href="#" class="footer-link">News & Blog</a></li>
+                     </ul>
+                  </div>
+                  <div>
+                     <h3 class="footer-title">Company</h3>
+                     <ul class="footer-links">
+                        <li><a href="#" class="footer-link">FAQs</a></li>
+                        <li><a href="#" class="footer-link">History</a></li>
+                        <li><a href="#" class="footer-link">Testimonial</a></li>
+                     </ul>
+                  </div>
+                  <div>
+                     <h3 class="footer-title">Contact</h3>
+                     <ul class="footer-links">
+                        <li><a href="#" class="footer-link">Call Center</a></li>
+                        <li><a href="#" class="footer-link">Support Center</a></li>
+                        <li><a href="#" class="footer-link">Contact Us</a></li>
+                     </ul>
+                  </div>
+                  <div>
+                     <h3 class="footer-title">Support</h3>
+                     <ul class="footer-links">
+                        <li><a href="#" class="footer-link">Privacy Policy</a></li>
+                        <li><a href="#" class="footer-link">Terms & Services</a></li>
+                        <li><a href="#" class="footer-link">Payments</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="footer-group">
+               <div class="footer-social">
+                  <a href="#" class="footer-social-link"><i class="ri-facebook-line"></i></a>
+                  <a href="#" class="footer-social-link"><i class="ri-instagram-line"></i></a>
+                  <a href="#" class="footer-social-link"><i class="ri-twitter-line"></i></a>
+                  <a href="#" class="footer-social-link"><i class="ri-youtube-line"></i></a>
+               </div>
+               <span class="footer-copyright">&#169; Copyright Jhony Souza. All rights reserved.</span>
+            </div>
+         </div>
       </footer>
 
       <!--========== SCROLL UP ==========-->
-      
+      <a href="#" class="scrollup"><i class="ri-arrow-up-line"></i></a>
 
       <!--=============== SCROLLREVEAL ===============-->
       <script src=""></script>
