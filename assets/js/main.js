@@ -46,3 +46,16 @@ window.onscroll = handleScroll
 
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/
+const sr = ScrollReveal({
+  origin: 'top',
+  distance:'60px',
+  duration: 3000,
+  delay: 250,
+  // reset: true // repetir animacion
+})
+
+sr.reveal(`.home-data, .explore-data, .explore-user, .footer-container`)
+sr.reveal(`.home-card`, {delay: 350, distance: '100px', interval: 100})
+sr.reveal(`.about-data, .join-image`, {origin: 'right'})
+sr.reveal(`.about-image, .join-data`, {origin: 'left'})
+sr.reveal(`.popular-card`, {interval: 200})
